@@ -1,13 +1,43 @@
-# SYSC3110_Project
-Scrcabble Game
-This is the implementation of Scrabble: Milestone 3. The work is done after splitting from the former group and Jatin Kumar is the only contributor to this milestone. As per the TAs feedback it was required to create a GitHub fork from the previous group submissions, but it was not possible as the members made their GitHub repository private. So, here is the new repository.
+# Scrabble Game
+A version of the board game - Scrabble
 
-Following are the highlights of work done;
-Implementation of feedback from previous milestone: The BoardFrame was showing invalid word error even if the word is valid in the resource file. This FileNotFoundException Error was fixed.
-Created missing requirements and progressed them further on the milestone: The testing with Junit and documentation along with UML sequence diagrams were implemented for this milestone.
-Implementation of AI Player: AI player logic is implemented where it checks for number assigned to the player and if the assigned is 0/Null the AI Player plays the game itself.
-Code Clean up: Some portions of the code were unclear/smelly, they have been cleaned to make it look tidy.
+### Milestone 3 and 4 contributor:
 
-I apologize, some features could not be implemented as the group issues only got concluded in the middle of week and then further got occupied with the lab exam this week.
+* [Jatin Kumar](https://github.com/Jatinkumar9)
 
-Way Forward: On receiving the TAs feedback Milestone 4 features will be added to the final version game. 
+
+### Moderator Teaching Assistant
+
+* [Mahsa Sinaei](https://github.com/MahsaSinaei)
+
+### List of Deliverables:
+- README file, code, corresponding tests, refined design, documentation
+### Get Started
+1. Clone the repo
+2. Add JDK path to the project
+3. Run the GameController.java from the Controller
+
+### User Manual
+> refer to User Manual in docs folder for detailed user manual with screenshots
+
+> For milestone 4:
+
+1) Multiple level undo/redo
+2) Save/load features
+
+## What's new:
+The purpose of this milestone was to have additional features to the game. An "AI" player is also implemented where any player in the game can be assigned to be an "AI" player. The calculation of score is done by using placement of letters, blank tiles, premium squares. The players can also undo/redo their moves and can save/load the game.
+
+
+## Known issues for Milestone 4
+1. The AI player cannot make first move
+2. The letter cannot be reshuffled
+
+## Feedback implemented from Milestone 3
+1. AI player implemented
+2. Additional features: blank tiles, premium squares, and the ability to use any number of “AI” players
+3. Fixed implementation of the game from first milestones
+
+# Roadmap Ahead
+- Work on known issues of milestone 4
+- Continue improving the game after course is over by improving the AI, better GUI and much more!
