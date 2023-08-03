@@ -1,5 +1,5 @@
 # Scrabble Game
-A version of the board game - Scrabble!
+A version of the board game - Scrabble! Using Java MVC, Swing Framework
 
 ### Milestone 3 and 4 contributor:
 
